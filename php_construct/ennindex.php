@@ -5,18 +5,21 @@ use Piyal as GlobalPiyal;
     class Piyal 
     {
 
-        public $i = 1;
+        public $i = 0;
         public $fruit = array("banana","strawberrie","grape","apple","watermelon","oranges","blueberries","lemons");
 
         public function __construct()
         {
             
-            while ($this->i <= 10) {
-               echo $this->i++."<br>";
+            while ($this->i<count($this->fruit)) {
+                $this->i++;
+               echo $this->fr++."<br>";
+               echo "{$this->fruit}";
             }
 
             
         }
+
 
     }
 
