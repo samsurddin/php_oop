@@ -29,9 +29,9 @@
         public function GeTInfo()
         {
             echo "Teacher name : {$this->name} <br>";
-            echo "Teacher name : {$this->email} <br>";
-            echo "Teacher name : {$this->address} <br>";
-            echo "Teacher name : {$this->subject} <br>";
+            echo "Teacher email : {$this->email} <br>";
+            echo "Teacher address : {$this->address} <br>";
+            echo "Teacher subject : {$this->subject} <br>";
         }
         
 
