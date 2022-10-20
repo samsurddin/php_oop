@@ -7,7 +7,7 @@
         public $tax;
         public $bills;
 
-        public function GeTStoreDetails(string $stname ,string $tradli ,string $govTax,int $govbill):void
+        public function GeTStoreDetails(string $stname ,string $tradli ,string $govTax,int $govbill): void
         {
             $this->name = $stname;
             $this->trad = $tradli;
@@ -15,7 +15,7 @@
             $this->bills = $govbill;
         }
 
-        public function Display():void
+        public function Display(): void
         {
             echo "Store name  : {$this->name}<br>";
             echo "Store trade license  : {$this->trad}<br>";
@@ -23,12 +23,13 @@
             echo "Store bills : {$this->bills}<br>";
         }
 
-        public function ShowStoreInfo():void
+        public function ShowStoreInfo(): void
         {
             $this->Display();
         }
 
     }
+    
     class NewStore extends Store 
     {
         public $monthlytax;
