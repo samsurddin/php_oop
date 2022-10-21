@@ -1,0 +1,15 @@
+{
+    "name": "icc/03compo",
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/application/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samsunddin Ahmed Rahhani",
+            "email": "samsundinahmedrabbane.bd@gmail.com"
+        }
+    ],
+    "require": {}
+}
